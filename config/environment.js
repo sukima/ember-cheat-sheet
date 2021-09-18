@@ -44,7 +44,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/ember-cheat-sheet';
+    // nothing different in prod
   }
 
   return ENV;

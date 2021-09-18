@@ -4,10 +4,19 @@ syntax:
   title: Syntax
   intro: >
     Ember's template syntax is an intentionally simple language so that the underlying GlimmerVM can be fast.
-    It is built on
-    <a href="https://en.wikipedia.org/wiki/S-expression">
+    It is built on Symbolic Expressions
+    (<a href="https://en.wikipedia.org/wiki/S-expression">
       S-Expressions
-    </a>
+    </a>)
     which is a tree-based structure for helping simplify syntax, building, and parsing templates.
     <br>
-    If you're familiar with TypeScript syntax, you could define the template syntax using this pseudo language here, like so,
+    If you're familiar with TypeScript syntax, you could define the template syntax using this pseudo grammar here, like so,
+
+notation:
+  title: Description
+  intro: >
+    Unlike JavaScript, Ember templates use
+    <a href="https://en.wikipedia.org/wiki/Polish_notation">
+      Polish Notation
+    </a>
+    or <em>Prefix Notation</em> which means that operators <em>precede</em> their operands.
