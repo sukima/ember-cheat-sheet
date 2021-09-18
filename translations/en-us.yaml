@@ -12,9 +12,6 @@ layout:
 component:
   guide-section:
     section: §
-    subsection:
-      classic: Classic
-      octane: Octane
     edit-translation-text: Edit Translation
   locale-menu:
     locale-select:
