@@ -32,3 +32,8 @@
 .subsection-container ~ .subsection-container {
   margin-top: 3rem;
 }
+
+section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

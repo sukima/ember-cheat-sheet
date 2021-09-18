@@ -1,3 +1,16 @@
+:root {
+  --ember-brand: #E04E39;
+  --ember-black: #212121;
+  --ember-burnt-ember: #9b2918;
+  --ember-gray: #817f7f;
+  --ember-blue: #1e719b;
+  --ember-faint-gray: #efebea;
+  --ember-light-blue: #74b0ce;
+  --ember-linen: #fdf7f6;
+  --ember-yellow: #fbc840;
+  --ember-white: #fdfdfd;
+}
+
 html {
   font-size: 16px;
   height: 100%;
@@ -10,7 +23,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   margin: 0;
-  padding: 1.5rem 0 3rem 0;
+  padding: 1.5rem 2rem 3rem 2rem;
 }
 
 * {

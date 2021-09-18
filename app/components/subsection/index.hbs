@@ -1,7 +1,7 @@
 {{#let
-  @subsection.id
-  (t (concat @sectionId "." @subsection.id ".title"))
-  (t (concat @sectionId "." @subsection.id ".description") htmlSafe=true)
+  @id
+  (t (concat @sectionId "." @id ".title"))
+  (t (concat @sectionId "." @id ".description") htmlSafe=true)
   as |subsectionId subsectionTitle subsectionDescription|
 }}
   <section
