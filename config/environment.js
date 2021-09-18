@@ -45,7 +45,6 @@ module.exports = function (environment) {
 
   if (environment === 'production') {
     ENV.rootURL = '/ember-cheat-sheet';
-    ENV.locationType = 'hash';
   }
 
   return ENV;
