@@ -121,8 +121,9 @@
     "yarn": "1.22.11"
   },
   "dependencies": {
-    "highlightjs": "^9.16.2",
+    "highlight.js": "^11.0.0",
     "highlightjs-glimmer": "^1.4.0",
-    "remark-autolink-headings": "^7.0.1"
+    "remark-autolink-headings": "^6.0.0",
+    "remark-highlight.js": "^6"
   }
 }
