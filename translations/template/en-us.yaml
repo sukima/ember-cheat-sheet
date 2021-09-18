@@ -9,5 +9,5 @@ syntax:
       S-Expressions
     </a>
     which is a tree-based structure for helping simplify syntax, building, and parsing templates.
-
-    (TODO: write more)
+    <br>
+    If you're familiar with TypeScript syntax, you could define the template syntax using this pseudo language here, like so,

@@ -1,18 +1,18 @@
-.container {
+.locale-menu {
   display: flex;
   flex-direction: column;
 }
 
-.select {
+.locale-menu .select {
   margin: 0.5rem 0 0 0;
   padding: 0.25rem 0.5rem;
 }
 
-.container[data-container-query-wide] {
+.locale-menu[data-container-query-wide] {
   align-items: center;
   flex-direction: row;
 }
 
-.container[data-container-query-wide] .select {
+.locale-menu[data-container-query-wide] .select {
   margin: 0 0 0 0.5rem;
 }

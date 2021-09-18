@@ -1,5 +1,8 @@
-/* Title */
-.title-container {
+.subsection {
+  padding-top: 1rem;
+}
+
+.subsection .title-container {
   align-items: center;
   border-bottom: 1px solid #E04E39;
   display: grid;
@@ -10,22 +13,22 @@
   grid-template-rows: auto;
 }
 
-.title {
+.subsection .title {
   grid-area: title;
   word-break: break-word;
 }
 
-.permalink {
+.subsection .permalink {
   grid-area: permalink;
   text-decoration: none;
 }
 
-.description {
+.subsection .description {
   margin-top: 0.5rem;
 }
 
 /* Edit link */
-.edit-link-container {
+.subsection .edit-link-container {
   display: flex;
   justify-content: flex-end;
   margin-top: 1rem;

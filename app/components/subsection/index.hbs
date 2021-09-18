@@ -5,21 +5,22 @@
   as |subsectionId subsectionTitle subsectionDescription|
 }}
   <section
+    class="subsection"
     aria-labelledby="{{@sectionId}}__{{subsectionId}}"
     data-test-subsection={{subsectionTitle}}
   >
-    <div local-class="title-container">
+    <div class="title-container">
       <h3
         data-test-field="Subsection Title"
         id="{{@sectionId}}__{{subsectionId}}"
-        local-class="title"
+        class="title"
       >
         {{subsectionTitle}}
       </h3>
 
       <a
         href="#{{@sectionId}}__{{subsectionId}}"
-        local-class="permalink"
+        class="permalink"
         title={{subsectionTitle}}
       >
         {{t "component.guide-section.section"}}
@@ -28,7 +29,7 @@
 
     <p
       data-test-field="Subsection Description"
-      local-class="description"
+      class="description"
     >
       {{#if (has-block 'description')}}
         {{yield to='description'}}

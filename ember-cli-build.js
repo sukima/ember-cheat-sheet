@@ -13,7 +13,7 @@ module.exports = function (defaults) {
     staticAddonTrees: true,
     staticAddonTestSupportTrees: true,
     staticHelpers: true,
-    staticComponents: false,
+    staticComponents: true,
     // splitAtRoutes: ['docs', 'docs.templates'],
     packagerOptions: {
       webpackConfig: {},

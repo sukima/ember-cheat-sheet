@@ -1,15 +1,10 @@
 {{page-title (t 'layout.application.title')}}
 
-<header class="header">
-  <img
-    alt={{t "layout.application.logo-alt-text"}}
-    class="logo"
-    src="/assets/ember-octane_text-treatment.png"
-  >
+<div class="grid">
+  <Nav />
+  <Header />
 
-  <div class="locale-menu-container">
-    <LocaleMenu />
-  </div>
-</header>
-
-{{outlet}}
+  <main>
+    {{outlet}}
+  </main>
+</div>

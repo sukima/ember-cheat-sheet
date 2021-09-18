@@ -1,4 +1,4 @@
-.title-container {
+.guide-section > .title-container {
   align-items: center;
   background-color: #1C304A;
   display: grid;
@@ -13,18 +13,14 @@
   width: -moz-fit-content; /* Firefox */
 }
 
-.title {
+.guide-section > .title-container .title {
   color: #F1F1F1;
   grid-area: title;
   word-break: break-word;
 }
 
-.permalink {
+.guide-section > .title-container .permalink {
   color: #C1C1C1;
   grid-area: permalink;
   text-decoration: none;
-}
-
-section {
-  padding-top: 1rem;
 }
