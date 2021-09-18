@@ -1,21 +1,20 @@
 {{#let (t (concat @id ".title")) as |sectionTitle|}}
   <section
-    class='guide-section'
     aria-labelledby={{@id}}
     data-test-section={{sectionTitle}}
   >
-    <div class="title-container">
+    <div local-class="title-container">
       <h2
         data-test-field="Section Title"
         id={{@id}}
-        class="title"
+        local-class="title"
       >
         {{sectionTitle}}
       </h2>
 
       <a
         href="#{{@id}}"
-        class="permalink"
+        local-class="permalink"
         title={{sectionTitle}}
       >
         {{t "component.guide-section.section"}}

@@ -13,19 +13,10 @@ module.exports = function (defaults) {
     staticAddonTrees: true,
     staticAddonTestSupportTrees: true,
     staticHelpers: true,
-    staticComponents: true,
+    staticComponents: false,
     // splitAtRoutes: ['docs', 'docs.templates'],
     packagerOptions: {
-      webpackConfig: {
-        // module: {
-        //   rules: [
-        //     {
-        //       test: /\.css$/,
-        //       use: ['style-loader', 'css-loader'],
-        //     },
-        //   ],
-        // },
-      },
+      webpackConfig: {},
     },
   });
 };

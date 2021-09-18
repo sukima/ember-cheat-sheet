@@ -2,7 +2,7 @@
   @features={{hash
     wide=(cq-width min=480)
   }}
-  class="locale__container"
+  local-class="container"
 >
   <label for="locale-menu">
     {{t "component.locale-menu.locale-select.label"}}
@@ -11,7 +11,7 @@
   <select
     data-test-field="Locale"
     id="locale-menu"
-    class="locale__select"
+    local-class="select"
     {{on "input" this.updateLocale}}
   >
     <option value="" disabled selected>
