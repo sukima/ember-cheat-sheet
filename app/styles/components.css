@@ -1,0 +1,85 @@
+.locale__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.locale__select {
+  margin: 0.5rem 0 0 0;
+  padding: 0.25rem 0.5rem;
+}
+
+.locale__container[data-container-query-wide] {
+  align-items: center;
+  flex-direction: row;
+}
+
+.locale__container[data-container-query-wide] .select {
+  margin: 0 0 0 0.5rem;
+}
+
+
+.guide-section .title-container {
+  align-items: center;
+  background-color: #1C304A;
+  display: grid;
+  grid-gap: 0 1rem;
+  grid-template-areas:
+    "permalink title";
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
+  margin-left: -2rem;
+  padding: 1rem 2rem;
+  width: fit-content;
+}
+
+.guide-section .title {
+  color: #F1F1F1;
+  grid-area: title;
+  word-break: break-word;
+}
+
+.guide-section .permalink {
+  color: #C1C1C1;
+  grid-area: permalink;
+  text-decoration: none;
+}
+
+
+section.guide-section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+/* Title */
+.subsection .title-container {
+  align-items: center;
+  border-bottom: 1px solid #E04E39;
+  display: grid;
+  grid-gap: 0 1rem;
+  grid-template-areas:
+    "permalink title";
+  grid-template-columns: auto 1fr;
+  grid-template-rows: auto;
+}
+
+.subsection .title {
+  grid-area: title;
+  word-break: break-word;
+}
+
+.subsection .permalink {
+  grid-area: permalink;
+  text-decoration: none;
+}
+
+.subsection .description {
+  margin-top: 0.5rem;
+}
+
+
+/* Edit link */
+.subsection .edit-link-container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 1rem;
+}

@@ -1,0 +1,13 @@
+title: Understanding Templates
+
+syntax:
+  title: Syntax
+  intro: >
+    Ember's template syntax is an intentionally simple language so that the underlying GlimmerVM can be fast.
+    It is built on
+    <a href="https://en.wikipedia.org/wiki/S-expression">
+      S-Expressions
+    </a>
+    which is a tree-based structure for helping simplify syntax, building, and parsing templates.
+
+    (TODO: write more)

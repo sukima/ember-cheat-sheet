@@ -1,3 +1,7 @@
+@import 'hljs-theme.css'
+@import 'components.css'
+@import 'layout.css'
+
 :root {
   --ember-brand: #E04E39;
   --ember-black: #212121;
@@ -10,6 +14,7 @@
   --ember-yellow: #fbc840;
   --ember-white: #fdfdfd;
 }
+
 
 html {
   font-size: 16px;

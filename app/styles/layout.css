@@ -1,25 +1,19 @@
-.header,
-.main {
+.header {
   padding: 0 1rem;
 }
 
-.logo {
+.header .logo {
   display: block;
   margin: 0 auto;
   max-width: 14rem;
 }
 
-.locale-menu-container {
+.header .locale-menu-container {
   margin: 1.5rem 0;
 }
 
-.guide-section-container {
-  margin-top: 4rem;
-}
-
 @media screen and (min-width: 30rem) {
-  .header,
-  .main {
+  .header {
     padding: 0 2rem;
   }
 }
