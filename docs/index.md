@@ -4,8 +4,21 @@
 
 {{t 'layout.application.description-2' htmlSafe=true}}
 
-<GuideSection @section={{hash id='generating-component' octaneFiles=(array 'octane.shell')}}/>
+<GuideSection @id='generating-files'>
+</GuideSection>
 
-<GuideSection @section={{hash id='file-structure' octaneFiles=(array 'octane.text')}}/>
 
+<GuideSection @id='component-templates'>
+</GuideSection>
 
+<GuideSection @id='component-properties'>
+</GuideSection>
+
+<GuideSection @id='actions'>
+</GuideSection>
+
+<GuideSection @id='component-lifecycle'>
+</GuideSection>
+
+<GuideSection @id='routes'>
+</GuideSection>
