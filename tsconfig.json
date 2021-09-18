@@ -21,10 +21,10 @@
     "module": "es6",
     "experimentalDecorators": true,
     "paths": {
-      "ember-octane-vs-classic-cheat-sheet/tests/*": [
+      "ember-cheat-sheet/tests/*": [
         "tests/*"
       ],
-      "ember-octane-vs-classic-cheat-sheet/*": [
+      "ember-cheat-sheet/*": [
         "app/*"
       ],
       "*": [

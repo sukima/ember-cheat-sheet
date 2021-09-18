@@ -7,17 +7,17 @@
 
 <GuideSection @id='generating-files' as |Section|>
   <Section @id='generating-component'>
-    <:example>
+  <:example>
 
-      ```bash
-      # -gc stands for glimmer component
-      ember generate component my-component -gc
+    ```bash
+    # -gc stands for glimmer component
+    ember generate component my-component -gc
 
-      # See the full set of options with:
-      ember generate component --help
-      ```
+    # See the full set of options with:
+    ember generate component --help
+    ```
 
-    <:/example>
+  </:example>
   </Section>
 
   <Section @id='file-structure'>

@@ -3,8 +3,8 @@ import * as QUnit from 'qunit';
 import { setup } from 'qunit-dom';
 import { start } from 'ember-qunit';
 
-import Application from 'ember-octane-vs-classic-cheat-sheet/app';
-import config from 'ember-octane-vs-classic-cheat-sheet/config/environment';
+import Application from 'ember-cheat-sheet/app';
+import config from 'ember-cheat-sheet/config/environment';
 
 setup(QUnit.assert);
 
