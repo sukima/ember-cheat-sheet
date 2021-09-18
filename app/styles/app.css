@@ -1,6 +1,6 @@
-@import './hljs-theme.css'
-@import './components.css'
-@import './layout.css'
+@import 'hljs-theme.css';
+@import 'components.css';
+@import 'layout.css';
 
 :root {
   --ember-brand: #E04E39;

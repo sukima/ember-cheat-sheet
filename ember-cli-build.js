@@ -16,7 +16,16 @@ module.exports = function (defaults) {
     staticComponents: true,
     // splitAtRoutes: ['docs', 'docs.templates'],
     packagerOptions: {
-      webpackConfig: {},
+      webpackConfig: {
+        // module: {
+        //   rules: [
+        //     {
+        //       test: /\.css$/,
+        //       use: ['style-loader', 'css-loader'],
+        //     },
+        //   ],
+        // },
+      },
     },
   });
 };
