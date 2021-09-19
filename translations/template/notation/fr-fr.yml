@@ -1,0 +1,8 @@
+title: Notation
+description: >
+  Unlike JavaScript, Ember templates use
+  <a href="https://en.wikipedia.org/wiki/Polish_notation">
+    Polish Notation
+  </a>
+  or <em>Prefix Notation</em> which means that operators (or functions) <em>precede</em> their operands (arguments).
+js-equiv: which is the equivalent of this, in JavaScript
