@@ -1,6 +1,3 @@
-# {{t 'layout.application.title'}}
-
-
 <p>{{t 'layout.application.description-1' htmlSafe=true}}</p>
 <p>{{t 'layout.application.description-2' htmlSafe=true}}</p>
 
@@ -25,7 +22,7 @@ ember generate component --help
 </GuideSection>
 
 
-<GuideSection @id='component-templates' as |Section|>
+<GuideSection @id='nomenclature' as |Section|>
   <Section @id='angle-brackets'>
   </Section>
 
@@ -54,49 +51,3 @@ ember generate component --help
   </Section>
 </GuideSection>
 
-<GuideSection @id='component-properties' as |Section|>
-  <Section @id='js-boilerplate'>
-  </Section>
-
-  <Section @id='ddau'>
-  </Section>
-
-  <Section @id='args'>
-  </Section>
-
-  <Section @id='get-and-set'>
-  </Section>
-
-  <Section @id='tracked-vs-cp'>
-  </Section>
-
-  <Section @id='computed-decorator'>
-  </Section>
-</GuideSection>
-
-<GuideSection @id='actions' as |Section|>
-  <Section @id='actions'>
-  </Section>
-
-  <Section @id='template-arguments-default'>
-  </Section>
-
-  <Section @id='mixins'>
-  </Section>
-</GuideSection>
-
-<GuideSection @id='component-lifecycle' as |Section|>
-  <Section @id='constructors'>
-  </Section>
-
-  <Section @id='will-destroy'>
-  </Section>
-
-  <Section @id='destroyable'>
-  </Section>
-</GuideSection>
-
-<GuideSection @id='routes' as |Section|>
-  <Section @id='model-access'>
-  </Section>
-</GuideSection>

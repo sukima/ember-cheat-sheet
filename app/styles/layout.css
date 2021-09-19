@@ -3,6 +3,8 @@
 }
 
 .header .logo {
+  min-height: 1rem;
+  color: var(--ember-brand);
   display: block;
   margin: 0 auto;
   max-width: 14rem;
