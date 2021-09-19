@@ -26,13 +26,13 @@ module.exports = function (defaults) {
         module: {
           rules: [
             {
-              test: /\.css$/i,
-              use: [
-                // Creates `style` nodes from JS strings
-                'style-loader',
-                // Translates CSS into CommonJS
-                'css-loader',
-              ],
+              test: /\.css$i/,
+              loader: 'postcss-loader',
+              options: {
+                postcssOptions: {
+                  plugins: ['postcss-import'],
+                },
+              },
             },
           ],
         },
