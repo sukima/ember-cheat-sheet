@@ -1,4 +1,0 @@
-title: Use an option to generate a component's JavaScript
-description: >
-  If you want the backing JavaScript class, include the '<code>'-gc'</code>' option.
-codeExplanation1: '-gc stands for glimmer component'
