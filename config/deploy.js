@@ -7,7 +7,7 @@ module.exports = function (deployTarget) {
 
     // include other plugin configuration that applies to all deploy targets here
     git: {
-      repo: 'https://github.com/ember-learn/ember-cheat-sheet.git',
+      repo: 'https://github.com/nullvoxpopuli/ember-cheat-sheet.git',
     },
   };
 
