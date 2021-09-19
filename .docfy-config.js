@@ -7,17 +7,14 @@ const highlight = require('remark-highlight.js');
 module.exports = {
   repository: {
     url: 'https://github.com/nullvoxpopuli/ember-cheat-sheet',
-    editBranch: 'main'
+    editBranch: 'main',
   },
-  remarkPlugins: [
-    [autolinkHeadings, { behavior: 'wrap' }],
-    highlight
-  ],
+  remarkPlugins: [[autolinkHeadings, { behavior: 'wrap' }], highlight],
   sources: [
     {
       root: path.resolve(__dirname, './docs'),
       pattern: '**/*.md',
-      urlPrefix: 'docs'
+      urlPrefix: 'docs',
     },
   ],
 };

@@ -10,7 +10,7 @@ module.exports = {
   overrides: [
     ...ember.overrides,
     {
-      files: ['lib/**/*.js', 'lib/**/*.cjs'],
+      files: ['lib/**/*.js', 'lib/**/*.cjs', '.docfy-config.js'],
       ...baseConfig,
     },
     {

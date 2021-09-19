@@ -12,6 +12,11 @@ layout:
 octane-v-classic: >
   If you are looking for the Ember Octane vs Ember Classic Cheat Sheet, that is '<a href="https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/">'located here'</a>'.
 
+nav:
+  home: Home
+  templates: Templates
+  components: Components
+
 component:
   guide-section:
     section: §
