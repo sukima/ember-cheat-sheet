@@ -70,8 +70,8 @@
     "@types/htmlbars-inline-precompile": "^1.0.1",
     "@types/qunit": "^2.11.2",
     "@types/rsvp": "^4.0.4",
-    "@typescript-eslint/eslint-plugin": "^4.31.0",
-    "@typescript-eslint/parser": "^4.31.0",
+    "@typescript-eslint/eslint-plugin": "^4.31.1",
+    "@typescript-eslint/parser": "^4.31.1",
     "babel-eslint": "^10.1.0",
     "broccoli-asset-rev": "^3.0.0",
     "ember-a11y-testing": "^4.2.0",
@@ -132,7 +132,7 @@
   "dependencies": {
     "highlight.js": "^11.2.0",
     "highlightjs-glimmer": "^1.4.0",
-    "remark-autolink-headings": "^6.0.0",
+    "remark-autolink-headings": "^6.1.0",
     "remark-highlight.js": "^6"
   }
 }
