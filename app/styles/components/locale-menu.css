@@ -1,7 +1,7 @@
 .locale-menu {
-  position: fixed;
-  top: 1rem;
-  right: 1rem;
+  position: absolute;
+  top: 0rem;
+  right: 0rem;
   display: block;
 }
 

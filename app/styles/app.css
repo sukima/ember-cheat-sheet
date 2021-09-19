@@ -50,6 +50,12 @@ body {
   gap: 0.5rem;
 }
 
+.body-wrapper {
+  max-width: 70rem;
+  margin: 0 auto;
+  position: relative;
+}
+
 
 h1 {
   font-size: 1.75rem;
