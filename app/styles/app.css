@@ -1,3 +1,21 @@
+@import 'hljs-theme.css';
+@import 'components/index.css';
+@import 'layout.css';
+
+:root {
+  --ember-brand: #E04E39;
+  --ember-black: #212121;
+  --ember-burnt-ember: #9b2918;
+  --ember-gray: #817f7f;
+  --ember-blue: #1e719b;
+  --ember-faint-gray: #efebea;
+  --ember-light-blue: #74b0ce;
+  --ember-linen: #fdf7f6;
+  --ember-yellow: #fbc840;
+  --ember-white: #fdfdfd;
+}
+
+
 html {
   font-size: 16px;
   height: 100%;
@@ -10,13 +28,19 @@ body {
   font-size: 16px;
   font-weight: 400;
   margin: 0;
-  padding: 1.5rem 0 3rem 0;
+  padding: 1.5rem 2rem 3rem 2rem;
 }
 
 * {
   margin: 0;
   padding: 0;
 }
+
+.grid {
+  display: grid;
+  gap: 0.5rem;
+}
+
 
 h1 {
   font-size: 1.75rem;
@@ -48,13 +72,8 @@ p {
   margin-bottom: 1rem;
 }
 
-p code {
-  background-color: #D0D0D0;
-  margin: 0 0.0625rem;
-  padding: 0.25rem 0.375rem;
+nav {
+  display: flex;
+  gap: 0.5rem;
 }
 
-code[class*="language-"],
-pre[class*="language-"] {
-  white-space: pre-wrap !important;
-}

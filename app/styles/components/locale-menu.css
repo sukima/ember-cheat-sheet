@@ -1,0 +1,18 @@
+.locale-menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.locale-menu .select {
+  margin: 0.5rem 0 0 0;
+  padding: 0.25rem 0.5rem;
+}
+
+.locale-menu[data-container-query-wide] {
+  align-items: center;
+  flex-direction: row;
+}
+
+.locale-menu[data-container-query-wide] .select {
+  margin: 0 0 0 0.5rem;
+}

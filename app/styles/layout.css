@@ -1,0 +1,19 @@
+.header {
+  padding: 0 1rem;
+}
+
+.header .logo {
+  display: block;
+  margin: 0 auto;
+  max-width: 14rem;
+}
+
+.header .locale-menu-container {
+  margin: 1.5rem 0;
+}
+
+@media screen and (min-width: 30rem) {
+  .header {
+    padding: 0 2rem;
+  }
+}

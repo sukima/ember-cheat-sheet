@@ -1,0 +1,57 @@
+{{#let
+  @id
+  (t (concat @sectionId "." @id ".title"))
+  (t (concat @sectionId "." @id ".description") htmlSafe=true)
+  as |subsectionId subsectionTitle subsectionDescription|
+}}
+  <section
+    class="subsection"
+    aria-labelledby="{{@sectionId}}__{{subsectionId}}"
+    data-test-subsection={{subsectionTitle}}
+  >
+    <div class="title-container">
+      <h3
+        data-test-field="Subsection Title"
+        id="{{@sectionId}}__{{subsectionId}}"
+        class="title"
+      >
+        {{subsectionTitle}}
+      </h3>
+
+      <a
+        href="#{{@sectionId}}__{{subsectionId}}"
+        class="permalink"
+        title={{subsectionTitle}}
+      >
+        {{t "component.guide-section.section"}}
+      </a>
+    </div>
+
+    <p
+      data-test-field="Subsection Description"
+      class="description"
+    >
+      {{#if (has-block 'description')}}
+        {{yield to='description'}}
+      {{else}}
+        {{subsectionDescription}}
+      {{/if}}
+    </p>
+
+    <div data-test-code>
+      {{yield to='example'}}
+    </div>
+
+    <div class="edit-link-container">
+      <a
+        data-test-link="Edit Translation"
+        href="https://github.com/ember-learn/ember-cheat-sheet/edit/main/translations/{{@sectionId}}/{{subsectionId}}/{{this.intl.locale}}.yaml"
+        class="edit-link"
+        rel="noopener noreferrer"
+        target="_blank"
+      >
+        {{t "component.guide-section.edit-translation-text"}}
+      </a>
+    </div>
+  </section>
+{{/let}}

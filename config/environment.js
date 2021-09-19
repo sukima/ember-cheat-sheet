@@ -2,7 +2,7 @@
 
 module.exports = function (environment) {
   let ENV = {
-    modulePrefix: 'ember-octane-vs-classic-cheat-sheet',
+    modulePrefix: 'ember-cheat-sheet',
     environment,
     rootURL: '/',
     locationType: 'auto',
@@ -44,8 +44,7 @@ module.exports = function (environment) {
   }
 
   if (environment === 'production') {
-    ENV.rootURL = '/ember-octane-vs-classic-cheat-sheet';
-    ENV.locationType = 'hash';
+    // nothing different in prod
   }
 
   return ENV;
