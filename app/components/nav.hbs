@@ -1,11 +1,17 @@
 <nav>
   <LinkTo @route="docs.index">
-    Home
+    {{t 'nav.home'}}
   </LinkTo>
 
   <span>|</span>
 
   <LinkTo @route="docs.templates">
-    Templates
+    {{t 'nav.templates'}}
+  </LinkTo>
+
+  <span>|</span>
+
+  <LinkTo @route="docs.components">
+    {{t 'nav.components'}}
   </LinkTo>
 </nav>

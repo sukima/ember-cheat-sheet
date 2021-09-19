@@ -1,11 +1,12 @@
 <header class="header">
-  <img
-    alt={{t "layout.application.logo-alt-text"}}
-    class="logo"
-    src="/assets/ember-octane_text-treatment.png"
-  >
+  <div class="logo-with-title">
+    <FaIcon @icon="ember" @prefix="fab" @size="3x" class="logo" />
 
-  <div class="locale-menu-container">
-    <LocaleMenu />
+    <h1 class="subtitle">
+      <span class="sr-only">{{t 'layout.application.title'}}</span>
+      <span class="not-sr-only">{{t 'layout.application.shortTitle'}}</span>
+    </h1>
   </div>
+
+  <LocaleMenu />
 </header>

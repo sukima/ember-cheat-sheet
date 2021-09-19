@@ -15,7 +15,14 @@ export default class Application extends Route {
   constructor(...args: EmberConstructorArgs) {
     super(...args);
 
-    let highlight = () => {
+    /**
+     * Docfy doesn't yet support Highlight.JS v11, so let's run it manually
+     */
+    let highlight = async () => {
+      await new Promise((resolve) => {
+        requestAnimationFrame(resolve);
+      });
+
       hljs.highlightAll();
     };
 

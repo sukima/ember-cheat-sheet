@@ -32,8 +32,23 @@ code.hljs {
 .hljs-literal {
   color:#56b6c2
 }
+
+.hljs-title {
+  color: var(--ember-light-blue);
+}
+.hljs-params {
+  color: #fea3df;
+}
+
+.hljs-punctuation { color: #a9c; }
+.hljs-attribute { color: #d38fae; }
+.hljs-property { color: #feb39f; }
+.hljs-class { color: #88f; }
+.hljs-operator { color: #959; }
+.hljs-comment { color: #888; }
+
+
 .hljs-addition,
-.hljs-attribute,
 .hljs-meta .hljs-string,
 .hljs-regexp,
 .hljs-string {
@@ -53,8 +68,7 @@ code.hljs {
 .hljs-link,
 .hljs-meta,
 .hljs-selector-id,
-.hljs-symbol,
-.hljs-title {
+.hljs-symbol{
   color:#61aeee
 }
 .hljs-built_in,
