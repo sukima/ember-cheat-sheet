@@ -8,12 +8,17 @@
 ```typescript
 type Value = string | number | null | undefined | object | Value[];
 type Helper = Function | EmberHelper;
+type NamedArgs = Key + '=' + SExpression
 type SExpression =
   | Value
   | `(` + Helper + `)`
   | `(` + Helper + ...SExpression + `)`
+  | `(` + Helper + ...SExpression + NamedArgs + `)`
+
 type Moustache = `{{` + SExpression + `}}`
 ```
+
+  <p>{{t 'template.syntax.plain-function' htmlSafe=true}}</p>
 
   </:example>
   </Section>
@@ -25,7 +30,12 @@ type Moustache = `{{` + SExpression + `}}`
   <:example>
 
 ```hbs
-{{function argA argB argC=(function argD)}}
+{{functionA argA argB argC=(functionB argD)}}
+```
+which is the equivalent of this, in JavaScript
+
+```js
+functionA(argA, argB, { argC: functionB(argD) });
 ```
 
   </:example>
