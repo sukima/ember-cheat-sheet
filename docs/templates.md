@@ -27,7 +27,7 @@ type Moustache = `{{` + SExpression + `}}`
 </div>
 ```
 
-  <p>{{t 'template.grammar.expression-breakdown'}}</p>
+  <p>{{t 'template.grammar.expression-breakdown' htmlSafe=true}}</p>
 
   </Section>
 

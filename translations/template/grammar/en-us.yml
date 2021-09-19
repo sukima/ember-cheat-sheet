@@ -25,7 +25,7 @@ plain-function: >
   </a>
 
 expression-breakdown: >
-  In this example, <code>a</code> can _only_ be a helper. Each of
+  In this example, <code>a</code> can <em>only</em> be a helper. Each of
   <code>b</code>, <code>c</code>, and <code>e</code>
   cannot be anything other than plain values because functions cannot
   be invoked without surrounding parenthesis.
