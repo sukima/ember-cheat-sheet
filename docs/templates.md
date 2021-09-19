@@ -9,7 +9,7 @@ type SExpression =
   | Value
   | `(` + Helper + `)`
   | `(` + Helper + ...SExpression + `)`
-  | `(` + Helper + ...SExpression + NamedArgs + `)`
+  | `(` + Helper + ...SExpression + ...NamedArgs + `)`
 
 type Moustache = `{{` + SExpression + `}}`
 ```
@@ -20,7 +20,7 @@ type Moustache = `{{` + SExpression + `}}`
 <div>
     {{a b c d=e}}
 {{!-- │ │ │ │ └─── value / s-expression
-      │ │ │ └─── named argument
+      │ │ │ └─── named argument key
       │ │ └─── positional argument
       │ └─── positional argument
       └─── helper --}}
@@ -70,21 +70,110 @@ functionA(argA, argB, { argC: functionB(argD) });
 
 <GuideSection @id="templates-how-to" as |Section|>
   <Section @id="iterate">
+
+```hbs
+{{#each this.anIterable as |item|}}
+  {{log item}}
+{{/each}}
+```
+
+```hbs
+{{#each-in this.anObject as |key value|}}
+  {{log key value}}
+{{/each}}
+```
+
+```hbs
+{{#each this.anIterable key='uuid' as |item|}}
+  {{log item}}
+{{/each}}
+```
+
+
   </Section>
 
   <Section @id="invoke-function">
+
+```hbs
+{{(this.myFunction)}}
+{{(this.myFunction a b)}}
+```
+
+```hbs
+{{this.myFunction a b}}
+```
+
   </Section>
 
   <Section @id="access-properties">
+
+```hbs
+{{@argumentA}}
+```
+
+```hbs
+{{get @argObject 'property-name'}}
+{{get @argObject this.dynamicProperty}}
+```
+
   </Section>
 
   <Section @id="access-array-indices">
+
+```hbs
+{{get @someArray 0}}
+```
+
   </Section>
 
   <Section @id="conditions">
+
+```hbs
+{{#if this.condition}}
+  ...
+{{else}}
+  ...
+{{/if}}
+```
+
+```hbs
+{{#unless this.condition}}
+  ...
+{{else}}
+  ...
+{{/unless}}
+```
+
+```hbs
+{{#if (eq @a @b)}}
+{{else}}
+{{/if}}
+```
+
+```hbs
+{{#if (or (eq @a @b) (gt @c 0))}}
+{{else}}
+{{/if}}
+```
+
+```hbs
+{{if (eq @a b) "is true" "is false"}}
+{{unless (eq @a b) "is negated true" "is negated false"}}
+```
+
+References:
+ - https://github.com/emberjs/rfcs/pull/562
+ - https://github.com/emberjs/rfcs/pull/560
+
+
   </Section>
 
   <Section @id="math">
+
+
+References:
+ - https://github.com/emberjs/rfcs/pull/561
+
   </Section>
 
 </GuideSection>

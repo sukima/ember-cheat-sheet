@@ -36,15 +36,17 @@ code.hljs {
 .hljs-title {
   color: var(--ember-light-blue);
 }
-
-.hljs-attribute {
-  color: var(--ember-yellow);
+.hljs-params {
+  color: #fea3df;
 }
 
-.hljs-operator,
-.hljs-punctuation {
-  color: var(--ember-linen);
-}
+.hljs-punctuation { color: #a9c; }
+.hljs-attribute { color: #d38fae; }
+.hljs-property { color: #feb39f; }
+.hljs-class { color: #88f; }
+.hljs-operator { color: #959; }
+.hljs-comment { color: #888; }
+
 
 .hljs-addition,
 .hljs-meta .hljs-string,
