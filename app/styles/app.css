@@ -1,6 +1,7 @@
 @import 'hljs-theme.css';
 @import 'components/index.css';
 @import 'layout.css';
+@import 'utils.css';
 
 :root {
   /* colors */

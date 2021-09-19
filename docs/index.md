@@ -3,6 +3,7 @@
 
 <GuideSection @id='nomenclature' as |Section|>
   <Section @id='angle-brackets'>
+
   </Section>
 
   <Section @id='nested-components'>

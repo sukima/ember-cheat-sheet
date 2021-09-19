@@ -32,8 +32,21 @@ code.hljs {
 .hljs-literal {
   color:#56b6c2
 }
+
+.hljs-title {
+  color: var(--ember-light-blue);
+}
+
+.hljs-attribute {
+  color: var(--ember-yellow);
+}
+
+.hljs-operator,
+.hljs-punctuation {
+  color: var(--ember-linen);
+}
+
 .hljs-addition,
-.hljs-attribute,
 .hljs-meta .hljs-string,
 .hljs-regexp,
 .hljs-string {
@@ -53,8 +66,7 @@ code.hljs {
 .hljs-link,
 .hljs-meta,
 .hljs-selector-id,
-.hljs-symbol,
-.hljs-title {
+.hljs-symbol{
   color:#61aeee
 }
 .hljs-built_in,

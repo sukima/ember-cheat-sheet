@@ -39,7 +39,13 @@
     </p>
 
     <div data-test-code>
-      {{yield to='example'}}
+      {{#if (has-block 'example')}}
+        {{yield to='example'}}
+      {{/if}}
+
+      {{#if (has-block 'default')}}
+        {{yield}}
+      {{/if}}
     </div>
 
     <div class="edit-link-container">
