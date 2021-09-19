@@ -13,6 +13,11 @@
     "doc": "doc",
     "test": "tests"
   },
+  "notes": {
+    "start": {
+      "rebuilding + embroider": "https://github.com/embroider-build/embroider/issues/972"
+    }
+  },
   "scripts": {
     "build": "ember build --environment=production",
     "deploy": "ember deploy production",
@@ -24,7 +29,7 @@
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
     "i18n:backfill": "node ./lib/backfill-empty-translations.mjs",
-    "start": "ember serve",
+    "start": "EMBROIDER_REBUILD_ADDONS=@docfy/ember,ember-intl ember serve",
     "test": "percy exec -- ember test"
   },
   "devDependencies": {

@@ -22,7 +22,21 @@ module.exports = function (defaults) {
     staticComponents: true,
     // splitAtRoutes: ['docs', 'docs.templates'],
     packagerOptions: {
-      webpackConfig: {},
+      webpackConfig: {
+        module: {
+          rules: [
+            {
+              test: /\.css$/i,
+              use: [
+                // Creates `style` nodes from JS strings
+                'style-loader',
+                // Translates CSS into CommonJS
+                'css-loader',
+              ],
+            },
+          ],
+        },
+      },
     },
   });
 };
