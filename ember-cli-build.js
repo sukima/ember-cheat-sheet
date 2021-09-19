@@ -2,10 +2,16 @@
 
 const EmberApp = require('ember-cli/lib/broccoli/ember-app');
 
+const { LEGACY } = process.env;
+
 module.exports = function (defaults) {
   let app = new EmberApp(defaults, {
     // custom options here
   });
+
+  if (LEGACY) {
+    return app.toTree();
+  }
 
   const { Webpack } = require('@embroider/webpack');
 

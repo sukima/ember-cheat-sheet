@@ -3,6 +3,7 @@
 @import 'layout.css';
 
 :root {
+  /* colors */
   --ember-brand: #E04E39;
   --ember-black: #212121;
   --ember-burnt-ember: #9b2918;
@@ -13,6 +14,12 @@
   --ember-linen: #fdf7f6;
   --ember-yellow: #fbc840;
   --ember-white: #fdfdfd;
+
+  /* breakpoints
+   * NOTE: @media does not support var()
+   * */
+  very-small: 30rem;
+  small: 60rem;
 }
 
 
@@ -30,6 +37,7 @@ body {
   margin: 0;
   padding: 1.5rem 2rem 3rem 2rem;
 }
+
 
 * {
   margin: 0;

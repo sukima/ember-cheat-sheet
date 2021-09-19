@@ -2,20 +2,31 @@
   padding: 0 1rem;
 }
 
-.header .logo {
-  min-height: 1rem;
-  color: var(--ember-brand);
-  display: block;
-  margin: 0 auto;
-  max-width: 14rem;
+.header .logo-with-title {
+  margin-top: 1.5rem;
+  display: flex;
+  justify-content: center;
+  /* to account for scale on the logo */
+  gap: 4rem;
 }
 
-.header .locale-menu-container {
-  margin: 1.5rem 0;
+.header .logo {
+  color: var(--ember-brand);
+  transform: scale(3);
+  max-width: 14rem;
 }
 
 @media screen and (min-width: 30rem) {
   .header {
     padding: 0 2rem;
   }
+}
+
+
+@media screen and (min-width: 60rem) {
+
+  .header .logo-with-title {
+    margin-top: 0;
+  }
+
 }

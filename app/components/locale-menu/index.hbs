@@ -1,9 +1,4 @@
-<ContainerQuery
-  class="locale-menu"
-  @features={{hash
-    wide=(cq-width min=480)
-  }}
->
+<div class="locale-menu">
   <label for="locale-menu">
     {{t "component.locale-menu.locale-select.label"}}
   </label>
@@ -23,5 +18,5 @@
         {{menuOption.label}}
       </option>
     {{/each}}
-   </select>
-</ContainerQuery>
+  </select>
+</div>

@@ -1,13 +1,16 @@
 layout:
   application:
-    logo-alt-text: 'Ember Octane: the latest edition from Ember.js'
     title: Ember.js Cheat Sheet
+    shortTitle: Cheat Sheet
     description-1: >
-      This guide is a cheat sheet for using '<a href="https://emberjs.com/editions/octane" target="_blank" rel="noopener noreferrer">'Ember.js Octane'</a>'.
+      This guide is a cheat sheet for using '<a href="https://emberjs.com/editions/octane" target="_blank" rel="noopener noreferrer">'Ember.js'</a>'.
       It doesn't cover everything, but it should get you started!
       PRs welcome at '<a href="https://github.com/nullvoxpopuli/ember-cheat-sheet" target="_blank" rel="noopener noreferrer">'the GitHub repository'</a>'.
     description-2: >
-      For in-depth information about the upgrade paths and differences introduced in Octane, see '<a href="https://guides.emberjs.com/release/upgrading/" target="_blank" rel="noopener noreferrer">'The Octane Upgrading Guide'</a>'.
+      For in-depth information, see '<a href="https://guides.emberjs.com/release/" target="_blank" rel="noopener noreferrer">'The Ember Guides'</a>'.
+
+octane-v-classic: >
+  If you are looking for the Ember Octane vs Ember Classic Cheat Sheet, that is '<a href="https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/">'located here'</a>'.
 
 component:
   guide-section:

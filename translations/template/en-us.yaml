@@ -34,4 +34,4 @@ notation:
     <a href="https://en.wikipedia.org/wiki/Polish_notation">
       Polish Notation
     </a>
-    or <em>Prefix Notation</em> which means that operators <em>precede</em> their operands.
+    or <em>Prefix Notation</em> which means that operators (or functions) <em>precede</em> their operands (arguments).
