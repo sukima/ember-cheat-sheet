@@ -1,32 +1,40 @@
 .header {
   padding: 0 1rem;
+  margin-bottom: 1rem;
 }
 
 .header .logo-with-title {
   margin-top: 1.5rem;
   display: flex;
   justify-content: center;
-  /* to account for scale on the logo */
-  gap: 4rem;
+  align-items: center;
+  gap: 0.5rem;
 }
 
 .header .logo {
   color: var(--ember-brand);
-  transform: scale(3);
-  max-width: 14rem;
+  width: 10rem; height: 8rem;
+  margin-bottom: -4rem;
+  margin-top: -4rem;
 }
 
-@media screen and (min-width: 30rem) {
-  .header {
-    padding: 0 2rem;
+@media screen and (max-width: 30rem) {
+  .header { padding: 0 }
+  .header .logo {
+     width: 8rem; height: 7rem;
+     margin-bottom: -4rem;
+     margin-top: -4rem;
   }
+  .header .logo-with-title { gap: 0.5rem; }
 }
 
-
-@media screen and (min-width: 60rem) {
-
-  .header .logo-with-title {
-    margin-top: 0;
+@media screen and (max-width: 60rem) {
+  .header { padding: 0 0.5rem; margin-bottom: 0; }
+  .header .logo {
+     width: 8rem; height: 7rem;
+     margin-bottom: -4rem;
+     margin-top: -4rem;
   }
-
+  .header .logo-with-title { margin-top: 2rem; }
 }
+

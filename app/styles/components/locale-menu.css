@@ -6,7 +6,6 @@
 }
 
 .locale-menu .select {
-  margin: 0.5rem 0 0 0;
   padding: 0.25rem 0.5rem;
 }
 
@@ -30,4 +29,11 @@
     gap: 0.5rem;
   }
 
+}
+
+@media screen and (max-width: 30rem) {
+  .locale-menu {
+    padding: 0.5rem;
+    display: grid;
+  }
 }

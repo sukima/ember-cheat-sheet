@@ -3,7 +3,14 @@
 pre code.hljs {
   display:block;
   overflow-x:auto;
-  padding:1em
+  padding:1em;
+  /* subtract padding and scrollbar */
+  max-width: calc(100vw - 6rem);
+}
+@media screen and (max-width: 30rem) {
+  pre code.hljs {
+    max-width: calc(100vw - 4rem);
+  }
 }
 code.hljs {
   padding:3px 5px

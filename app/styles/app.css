@@ -54,7 +54,6 @@ body {
 h1 {
   font-size: 1.75rem;
   font-weight: 400;
-  margin-bottom: 1.5rem;
 }
 
 h2 {
@@ -86,3 +85,22 @@ nav {
   gap: 0.5rem;
 }
 
+
+
+@media screen and (max-width: 30rem) {
+  body {
+    padding: 0.5rem 0.5rem 2rem 0.5rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+}
