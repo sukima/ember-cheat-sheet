@@ -57,11 +57,27 @@ functionA(argA, argB, { argC: functionB(argD) });
 
 ```hbs
 <div {{this.modifierName a b=(this.helperName c)}}>
+{{!--  │                 │ │  │               └─── positional argument
+       │                 │ │  └─── helper
+       │                 │ └─── named argument key
+       │                 └─── positional argument
+       └─── modifier --}}
   {{yield to="default"}}
+{{!--  │  │   └─── value
+       │  └─── named argument key
+       └─── helper --}}
 </div>
 
 <div {{@modifierName a b=(@helperName c)}}>
+{{!--  │             │ │  │           └─── positional argument
+       │             │ │  └─── helper
+       │             │ └─── named argument key
+       │             └─── positional argument
+       └─── modifier --}}
   {{yield to="default"}}
+{{!--  │  │   └─── value
+       │  └─── named argument key
+       └─── helper --}}
 </div>
 ```
 
