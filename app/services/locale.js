@@ -25,10 +25,21 @@ export default class LocaleService extends Service {
       return 0;
     });
 
-  updateSiteLocale(locale) {
+  async updateSiteLocale(locale) {
     if (!supportedLocales.has(locale)) {
       return;
     }
+
+    let translationPath = `translations/${locale}.json`;
+    let assetMap = await fetch('/assets/assetMap.json');
+    let assetMapJson = await assetMap.json();
+
+    translationPath = assetMapJson.assets[translationPath];
+
+    let translations = await fetch(`/${translationPath}`);
+    let translationsJson = await translations.json();
+
+    this.intl.addTranslations(locale, translationsJson);
 
     this.intl.setLocale(locale);
   }
