@@ -1,5 +1,7 @@
 import Service, { inject as service } from '@ember/service';
 
+import ENV from 'ember-cheat-sheet/config/environment';
+
 /*
   To help with maintenance, please list
   the supported locales in alphabetical order.
@@ -30,11 +32,14 @@ export default class LocaleService extends Service {
       return;
     }
 
-    let translationPath = `translations/${locale}.json`;
-    let assetMap = await fetch('/assets/assetMap.json');
-    let assetMapJson = await assetMap.json();
+    let translationPath = `translations/${locale.toLowerCase()}.json`;
 
-    translationPath = assetMapJson.assets[translationPath];
+    if (ENV.environment === 'production') {
+      let assetMap = await fetch('/assets/assetMap.json');
+      let assetMapJson = await assetMap.json();
+
+      translationPath = assetMapJson.assets[translationPath];
+    }
 
     let translations = await fetch(`/${translationPath}`);
     let translationsJson = await translations.json();
