@@ -1,3 +1,6 @@
 title: this
 description: >
-  TODO: write this
+  <code>this</code> is always a reference to a template's backing class, if it has one.
+  For components, <code>this</code> is the <em>instance</em> of the backing class.
+  For route-templates, <code>this</code> is the <em>instance</em> of the backing controller.
+  For template-only components, <code>this</code> will be undefined.
