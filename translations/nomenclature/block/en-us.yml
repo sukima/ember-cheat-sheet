@@ -5,5 +5,8 @@ description: >
 curly: >
   A block can be defined with curly braces denoted by <code>#</code> to signify the start of the block, and <code>/</code> to signify the end of the block.
 
-component:
+component: >
   A block can be defined with component invocations, much like the curly block, where the available new local variables are defined between the <code>as</code>  pipes, <code>|...|</code>.
+
+component-after: >
+  Note that inside <code>MyComponent</code> there must be a <code>'{{yield}}'</code> in order for the block to render.

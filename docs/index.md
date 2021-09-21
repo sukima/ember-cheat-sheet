@@ -13,9 +13,20 @@
   </Section>
 
   <Section @id='arguments'>
+
+```hbs
+<SomeComponent @someArgument={{@anArgument}} />
+```
+
   </Section>
 
   <Section @id='attributes'>
+
+```hbs
+<SomeComponent class="..." data-test style="..." />
+<div class="...">
+```
+
   </Section>
 
   <Section @id='this'>
@@ -38,6 +49,8 @@
   {{a}} {{b}}
 </MyComponent>
 ```
+
+  <p>{{t 'nomenclature.block.component-after' htmlSafe=true}}</p>
 
   </Section>
 
