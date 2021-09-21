@@ -1,3 +1,5 @@
 title: Nested Components
 description: >
-  TODO: write this
+  A component defined in the folder of another component.
+  For example, a component in <code>app/components/nested/some-component</code>
+  would be invoked as <code>&lt;Nested::SomeComponent /&gt;</code>

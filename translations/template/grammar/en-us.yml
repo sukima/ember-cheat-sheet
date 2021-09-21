@@ -5,7 +5,7 @@ description: >
   (<a href="https://en.wikipedia.org/wiki/S-expression">
     S-Expressions
   </a>)
-  which is a tree-based structure for helping simplify grammar, building, and parsing templates.
+  which is a tree-based structure for helping simplify syntax, building, and parsing templates.
   <br>
   If you're familiar with TypeScript, you could define the template grammar using this pseudo-code here, like so,
 plain-function: >

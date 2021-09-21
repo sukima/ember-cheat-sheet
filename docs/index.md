@@ -4,6 +4,12 @@
 <GuideSection @id='nomenclature' as |Section|>
   <Section @id='angle-brackets'>
 
+```hbs
+<SomeComponent />
+↑  <br />       ↑
+   ↑    ↑
+```
+
   </Section>
 
   <Section @id='nested-components'>
