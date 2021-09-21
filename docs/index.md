@@ -22,6 +22,23 @@
   </Section>
 
   <Section @id='block'>
+
+  <p>{{t 'nomenclature.block.curly' htmlSafe=true}}</p>
+
+```hbs
+{{#let (array 1 2 3) as |threeItems|}}
+  {{threeItems}}
+{{/let}}
+```
+
+  <p>{{t 'nomenclature.block.component' htmlSafe=true}}</p>
+
+```hbs
+<MyComponent as |a b|
+  {{a}} {{b}}
+</MyComponent>
+```
+
   </Section>
 
   <Section @id='named-block'>

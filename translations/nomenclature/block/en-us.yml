@@ -1,3 +1,9 @@
 title: Block
 description: >
-  TODO: write this
+  A block is a nested scope that have local variables that are not available outside of the block. Like in JavaScript, variables defined outside of the block can still be accessed.  Unlike handlebars, there is no implicit scope.
+
+curly: >
+  A block can be defined with curly braces denoted by <code>#</code> to signify the start of the block, and <code>/</code> to signify the end of the block.
+
+component:
+  A block can be defined with component invocations, much like the curly block, where the available new local variables are defined between the <code>as</code>  pipes, <code>|...|</code>.
