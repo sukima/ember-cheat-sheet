@@ -34,14 +34,20 @@ type Moustache = `{{` + SExpression + `}}`
   <Section @id='notation'>
 
 ```hbs
+{{or argA (not argB)}}
+
 {{functionA argA argB argC=(functionB argD)}}
 ```
 
   <p>{{t 'template.notation.js-equiv'}}</p>
 
 ```js
+argA || !argB;
+
 functionA(argA, argB, { argC: functionB(argD) });
 ```
+
+  <p>{{t 'template.notation.notes' htmlSafe=true}}</p>
 
   </Section>
 

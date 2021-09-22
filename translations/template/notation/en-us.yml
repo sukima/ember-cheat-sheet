@@ -6,3 +6,7 @@ description: >
   </a>
   or <em>Prefix Notation</em> which means that operators (or functions) <em>precede</em> their operands (arguments).
 js-equiv: which is the equivalent of this, in JavaScript
+
+notes: >
+  In older versions of ember, you may need an addon for helpers like <code>or</code> and <code>not</code>,
+  such as: <a href="https://github.com/jmurphyau/ember-truth-helpers">ember-truth-helpers</a>
