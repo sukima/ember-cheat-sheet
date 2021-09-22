@@ -6,6 +6,7 @@ pre code.hljs {
   padding:1em;
   /* subtract padding and scrollbar */
   max-width: calc(100vw - 6rem);
+  margin-bottom: 0.5rem;
 }
 @media screen and (max-width: 30rem) {
   pre code.hljs {

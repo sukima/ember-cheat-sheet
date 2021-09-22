@@ -33,6 +33,12 @@
 <div class="...">
 ```
 
+  <p>{{t 'nomenclature.attributes.splattributes' htmlSafe=true}}</p>
+
+```hbs
+<div ...attributes></div>
+```
+
   </Section>
 
   <Section @id='this'>
