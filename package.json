@@ -127,7 +127,7 @@
   },
   "volta": {
     "node": "14.17.6",
-    "yarn": "1.22.11"
+    "yarn": "1.22.15"
   },
   "dependencies": {
     "highlight.js": "^11.2.0",
