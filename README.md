@@ -3,7 +3,7 @@
 
 # Ember Cheat Sheet
 
-Check out [the deployed app](https://nullvoxpopuli.github.io/ember-cheat-sheet/). Yep, it uses Ember Octane!
+Check out [the deployed app](https://cheatsheet.glimmer.nullvoxpopuli.com/docs). Yep, it uses Ember Octane!
 
 You can see side-by-side examples of [Ember Octane](https://emberjs.com/editions/octane) and Ember Classic.
 
