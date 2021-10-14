@@ -1,3 +1,10 @@
-title: Attributes
+title: Attributs
 description: >
-  TODO: write this
+  Tous les attributs HTML sont supportés. Voir la <a href="https://developer.mozilla.org/fr/docs/Web/HTML/Attributes">référence des attributs HTML sur MDN</a>.
+
+splattributes: >
+  On peut passer des attributs HTML à un composant. Ce composant doit alors utiliser les "splattributes" pour indiquer où insérer ceux-ci.
+  À noter que les arguments ne font pas partie de ces "splattributes".
+
+  Dans l'exemble ci-dessous, si cette div représentait le template de <code>SomeComponent</code> présenté au dessus, les attributs <code>class</code>, 
+  <code>data-test</code>, et <code>style</code> seraient appliqués sur la div.
