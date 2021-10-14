@@ -1,3 +1,12 @@
-title: Block
+title: Block (Bloc)
 description: >
-  TODO: write this
+  Un bloc est un scope imbriqué qui possède des variables locales qui ne sont pas accessibles en dehors de ce bloc. Comme en JavaScript, les variables définies à l'extérieur du bloc peuvent toujours être accessibles. À l'inverse des handlebars, il n'y a pas de scope implicite.
+
+curly: >
+  Un bloc peut être défini avec des doubles accolades. Le début d'un bloc est désigné par <code>#</code>, et la fin par <code>/</code>.
+
+component: >
+  Un bloc peut être défini de la même manière qu'un composant. De manière similaire à l'invocation avec doubles accolades, les variables locales sont définies entre les <code>as</code> pipes, <code>|...|</code>.
+
+component-after: >
+  À noter qu'il doit y avoir <code>'{{yield}}'</code> à l'intérieur de <code>MyComponent</code> pour que le bloc soit correctement rendu.
