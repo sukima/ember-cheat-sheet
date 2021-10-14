@@ -1,3 +1,6 @@
 title: this
 description: >
-  TODO: write this
+  <code>this</code> est une référence à la classe qui sous-tend un template, si elle existe.
+  Pour les composants, <code>this</code> est l'<em>instance</em> de ce composant.
+  Pour les templates de routes, <code>this</code> est l'<em>instance</em> du controller associé.
+  Pour les composants sans template (template-only components), <code>this</code> sera <code>undefined</code>.
