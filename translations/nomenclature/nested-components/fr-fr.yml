@@ -2,4 +2,3 @@ title: Les Composants Imbriqués - Nested Components
 description: >
   C'est un composant définit dans le dossier d'un autre composant. Par exemple, un composant définit dans
   <code>app/components/nested/some-component</code> pourra être appelé de la manière suivante : <code>&lt;Nested::SomeComponent /&gt;</code>
-

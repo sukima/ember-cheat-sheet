@@ -7,12 +7,3 @@ splattributes: >
   les attributs passés au contexte d'un élément. <b>Notez que les arguments ne sont pas inclus dans les attributs passés avec les </b><code>...attributes</code>.
   Dans l'exemple ci-dessous, si ce <code>div</code> représente le modèle (<i>template</i> en anglais) du <code>SomeComponent</code> ci-dessus, les attributs <code>class</code>,
   <code>data-test</code> et <code>style</code> lui seraient alors appliqués.
-
-
- 
- 
- 
- 
- 
- 
- 
