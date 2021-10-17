@@ -1,3 +1,3 @@
-title: Arguments
+title: Les Arguments
 description: >
-  TODO: write this
+  Ce sont les données passées à un composant, une aide (<i>helper</i> en anglais) ou à un modificateur (<i>modifier</i> en anglais) lors de son appel.

@@ -1,4 +1,4 @@
-title: Grammar
+title: La Grammaire
 description: >
   Ember's template grammar is an intentionally simple language so that the underlying GlimmerVM can be fast.
   It is built on Symbolic Expressions
