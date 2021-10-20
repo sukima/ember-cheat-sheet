@@ -130,7 +130,7 @@
     "yarn": "1.22.15"
   },
   "dependencies": {
-    "highlight.js": "^11.2.0",
+    "highlight.js": "^11.3.1",
     "highlightjs-glimmer": "^1.4.0",
     "remark-autolink-headings": "^6.1.0",
     "remark-highlight.js": "^6"
