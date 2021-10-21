@@ -44,6 +44,6 @@ module('Acceptance | Homepage | en-US', function (hooks) {
 
     await fillIn('[data-test-field="Locale"]', 'fr-FR');
 
-    assert.dom('#nomenclature').hasText('Nomenclature', 'We see the site in French.');
+    assert.dom('#nomenclature').hasText('La Nomenclature', 'We see the site in French.');
   });
 });

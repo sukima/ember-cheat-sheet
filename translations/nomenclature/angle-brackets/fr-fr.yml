@@ -1,3 +1,3 @@
-title: Angle Brackets
+title: Les Chevrons - Angle Brackets
 description: >
-  Ce sont les chevrons (`<` et `>`) qui entourent le nom du composant ou de l'élément.
+  Sur le modèle des éléments HTML, le nom du composant est entouré par des chevrons <code>&lt;</code> et <code>&gt;</code>.

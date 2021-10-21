@@ -1,25 +1,25 @@
 layout:
   application:
-    logo-alt-text: 'Ember Octane: the latest edition from Ember.js'
-    title: Ember.js Octane vs Classic Cheat Sheet
+    logo-alt-text: "Ember Octane : la dernière édition d'Ember.js"
+    title: Aide-mémoire Ember.js Octane
     description-1: >
-      Ce guide est un aide-mémoire (eng: cheat sheet) afin d'utiliser '<a href="https://emberjs.com/editions/octane" target="_blank" rel="noopener noreferrer">'Ember.js Octane'</a>'.
-      Tout n'y est pas abordé, mais il devrait permettre de bien démarrer avec Octane!
-      Toutes les PRs sont les bienvenues sur '<a href="https://github.com/nullvoxpopuli/ember-cheat-sheet" target="_blank" rel="noopener noreferrer">'le repository GitHub'</a>'.
+      Ce guide est un aide-mémoire (<i>cheat sheet</i> en anglais) pour <a href="https://emberjs.com/editions/octane" target="_blank" rel="noopener noreferrer">Ember.js Octane</a>.
+      Il n'est pas exhaustif mais devrait permettre de bien démarrer avec Octane !
+      Toutes les PRs sont les bienvenues sur <a href="https://github.com/nullvoxpopuli/ember-cheat-sheet" target="_blank" rel="noopener noreferrer">le repository GitHub</a>.
     description-2: >
-      Pour plus d'information sur la manière de migrer vers Octane et les nouveautés qui y sont introduites, consultez '<a href="https://guides.emberjs.com/release/upgrading/" target="_blank" rel="noopener noreferrer">'Le guide de migration vers Octane'</a>'.
+      Pour plus d'information sur la manière de migrer vers Octane et les nouveautés qui y sont introduites, consultez <a href="https://guides.emberjs.com/release/upgrading/" target="_blank" rel="noopener noreferrer">Le guide de migration vers Octane</a>.
 
 component:
   guide-section:
     section: §
     subsection:
-      classic: Classic
+      classic: Classique
       octane: Octane
-    edit-translation-text: Edit Translation
+    edit-translation-text: Modifier la traduction
   locale-menu:
     locale-select:
-      label: Translate the guide to
-      placeholder: Select your preferred language
+      label: Traduire ce guide en
+      placeholder: Choisir votre langue préférée
     #
     # For convenience, the translations of locale menu options
     # will be the same across all locales.
