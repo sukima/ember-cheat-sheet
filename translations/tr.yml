@@ -1,7 +1,7 @@
 layout:
   application:
-    title: Ember.js Cheat Sheet
-    shortTitle: Cheat Sheet
+    title: Ember.js Kopya Kağıdı
+    shortTitle: Kopya Kağıdı
     description-1: >
       Bu rehber '<a href="https://emberjs.com/editions/octane" target="_blank" rel="noopener noreferrer">'Ember.js'</a>' kullanımı için bir kopya kağıdı işlevi sunar.
       Her şeyi kapsamaz ancak başlamanız için yeterlidir.
