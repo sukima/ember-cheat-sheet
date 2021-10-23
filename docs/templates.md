@@ -183,7 +183,7 @@ functionA(argA, argB, { argC: functionB(argD) });
 {{unless (eq @a b) "is negated true" "is negated false"}}
 ```
 
-References:
+{{t 'component.guide-section.references'}}
  - https://github.com/emberjs/rfcs/pull/562
  - https://github.com/emberjs/rfcs/pull/560
 
@@ -192,8 +192,7 @@ References:
 
   <Section @id="math">
 
-
-References:
+{{t 'component.guide-section.references'}}
  - https://github.com/emberjs/rfcs/pull/561
 
   </Section>

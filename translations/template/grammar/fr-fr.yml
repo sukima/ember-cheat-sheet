@@ -1,31 +1,22 @@
 title: La Grammaire
 description: >
-  Ember's template grammar is an intentionally simple language so that the underlying GlimmerVM can be fast.
-  It is built on Symbolic Expressions
-  (<a href="https://en.wikipedia.org/wiki/S-expression">
-    S-Expressions
-  </a>)
-  which is a tree-based structure for helping simplify grammar, building, and parsing templates.
+  La grammaire des Modèles (<i>Templates</i>) Ember est délibérément simple pour que le moteur de rendu 
+  <a href="https://github.com/glimmerjs/glimmer-vm">GlimmerVM</a> soit rapide.
+  Elle est suit les principes des 
+  <a href="https://fr.wikipedia.org/wiki/S-expression">S-Expressions ou expressions symboliques</a>, 
+  une structure en arbre permettant de simplifier la syntaxe, la construction et la décomposition des Modèles.
   <br>
-  If you're familiar with TypeScript, you could define the template grammar using this pseudo-code here, like so,
+  Si vous êtes familier avec TypeScript, vous pouvez définir un Modèle suivant le pseudo-code ci-dessous :
 plain-function: >
-  Note that plain function helpers are not supported yet without
-
-  the help of a
-  <a href="https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md">
-    Helper Manager
-  </a>
-  <br>
-  such as what is provided by the addon
-  <a href="https://github.com/pzuraq/ember-could-get-used-to-this">
-    ember-could-get-used-to-this
-  </a>. However, there is RFC that propose making this a default behavior,
-  <a href="https://github.com/emberjs/rfcs/pull/756">
-    RFC#756: Default Helper Manager
-  </a>
+  Notez que les Aides de fonction simple (<i>plain function Helpers</i>) ne sont pas supportées sans un
+  <a href="https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md">gestionnaire d'Aides</a> 
+  dédié comme celui fourni avec l'extension
+  <a href="https://github.com/pzuraq/ember-could-get-used-to-this">ember-could-get-used-to-this</a>. 
+  Cependant, il y a une demande d'évolution qui propose d'en faire le comportement par défaut,
+  <a href="https://github.com/emberjs/rfcs/pull/756">RFC#756: Default Helper Manager</a>.
 
 expression-breakdown: >
-  In this example, <code>a</code> can _only_ be a helper. Each of
-  <code>b</code>, <code>c</code>, and <code>e</code>
-  cannot be anything other than plain values because functions cannot
-  be invoked without surrounding parenthesis.
+  Dans cet exemple, <code>a</code> peut être <em>seulement</em> une Aide.
+  Alors que <code>b</code>, <code>c</code>, et <code>e</code> ne peuvent
+  être que des valeurs brutes, car une fonction ne peut pas être appelée
+  sans être préalablement écrite entre parenthèses.
