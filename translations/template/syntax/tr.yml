@@ -1,0 +1,7 @@
+title: Sözdizimi
+description: >
+  Sözdizimi şablonda önemli bir rol oynar. Çünkü bir ifadenin şablondaki konumuna bağlı olarak, <em>tam olarak</em> ne tür bir şey olduğunu bileceksiniz.
+  Bir değiştirici fonksiyon, yardımcı fonksiyon veya basit bir değer.
+
+with-this: >
+  Değiştirici fonksiyona veya yardımcı fonksiyona yapılan başvurunun nasıl yazıldığı önemli değildir, ne beklendiğini belirleyen <em>sözdizimidir</em>.

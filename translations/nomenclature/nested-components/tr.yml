@@ -1,0 +1,5 @@
+title: İç İçe Bileşenler
+description: >
+  Başka bir bileşenin klasöründe tanımlanan bir bileşendir.
+  Örneğin, <code>app/components/nested/some-component</code> içerisindeki bir bileşen
+  <code>&lt;Nested::SomeComponent /&gt;</code> şeklinde çağrılabilir.

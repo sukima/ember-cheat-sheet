@@ -1,0 +1,10 @@
+title: Öznitellikler
+description: >
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">MDN HTML öznitelikleri listesi</a>'nde sunulan herhangi bir HTML özniteliğidir.
+
+splattributes: >
+  Ayrıca "splattributes" denilen yayılan öznitelikler vardır, ki bunlar üzerinde <code>...attributes</code>
+  bulunan öğeye çağrılan bağlama gönderilen tüm özniteliklerin topluca geçilmesini belirtir. Argümanların <code>...attributes</code>'a dahil olmadığına dikkat edin.
+
+  Aşağıdaki örnekte, eğer bu div yukarıdaki <code>SomeComponent</code> için bir şablonu işaret ediyorsa, <code>class</code>,
+  <code>data-test</code>, ve <code>style</code> öznitelikleri uygulanmış olurdu.
