@@ -1,0 +1,13 @@
+title: Gösterim
+description: >
+  JavaScript'in aksine, Ember şablonları
+  <a href="https://en.wikipedia.org/wiki/Polish_notation">
+    Polish Notation
+  </a>
+  ya da diğer ismiyle <em>Prefix Notation</em> kullanır. Yani operatörler (ya da fonksiyonlar) operandların (argümanların) önünde yer alır.
+js-equiv: Bu JavaScript'te şuna karşılık gelir.
+
+notes: >
+  Ember'in eski sürümlerinde, <code>or</code> ve <code>not</code> yardımcı fonksiyonları için bir eklentiye ihtiyacınız olabilir.
+  Örneğin: <a href="https://github.com/jmurphyau/ember-truth-helpers">ember-truth-helpers</a>
+
