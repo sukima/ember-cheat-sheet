@@ -9,12 +9,18 @@ layout:
     description-2: >
       Pour plus d'information sur la manière de migrer vers Octane et les nouveautés qui y sont introduites, consultez <a href="https://guides.emberjs.com/release/upgrading/" target="_blank" rel="noopener noreferrer">Le guide de migration vers Octane</a>.
 
+octane-v-classic: >
+  Si vous cherchez l'aide-mémoire « Ember Octane vs. Ember Classic », elle est <a href="https://ember-learn.github.io/ember-octane-vs-classic-cheat-sheet/">ici</a>.
+
+nav:
+  home: Accueil
+  templates: Les Modèles
+  components: Les Composants
+
 component:
   guide-section:
     section: §
-    subsection:
-      classic: Classique
-      octane: Octane
+    references: 'Références :'
     edit-translation-text: Modifier la traduction
   locale-menu:
     locale-select:

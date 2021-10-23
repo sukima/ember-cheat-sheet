@@ -2,27 +2,17 @@ title: Grammar
 description: >
   Ember's template grammar is an intentionally simple language so that the underlying GlimmerVM can be fast.
   It is built on Symbolic Expressions
-  (<a href="https://en.wikipedia.org/wiki/S-expression">
-    S-Expressions
-  </a>)
+  (<a href="https://en.wikipedia.org/wiki/S-expression">S-Expressions</a>)
   which is a tree-based structure for helping simplify syntax, building, and parsing templates.
   <br>
   If you're familiar with TypeScript, you could define the template grammar using this pseudo-code here, like so,
 plain-function: >
-  Note that plain function helpers are not supported yet without
-
-  the help of a
-  <a href="https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md">
-    Helper Manager
-  </a>
-  <br>
+  Note that plain function helpers are not supported yet without the help of a
+  <a href="https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md">Helper Manager</a>
   such as what is provided by the addon
-  <a href="https://github.com/pzuraq/ember-could-get-used-to-this">
-    ember-could-get-used-to-this
-  </a>. However, there is RFC that propose making this a default behavior,
-  <a href="https://github.com/emberjs/rfcs/pull/756">
-    RFC#756: Default Helper Manager
-  </a>
+  <a href="https://github.com/pzuraq/ember-could-get-used-to-this">ember-could-get-used-to-this</a>. 
+  However, there is RFC that propose making this a default behavior,
+  <a href="https://github.com/emberjs/rfcs/pull/756">RFC#756: Default Helper Manager</a>.
 
 expression-breakdown: >
   In this example, <code>a</code> can <em>only</em> be a helper. Each of
