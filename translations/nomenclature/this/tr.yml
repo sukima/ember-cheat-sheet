@@ -1,0 +1,6 @@
+title: this
+description: >
+  <code>this</code> eğer varsa her zaman arkadaki şablon sınıfını işaret eder.
+  Bileşenler için, <code>this</code> arkadaki sınıfın bir <em>örneğidir</em>.
+  Rota şablonları için, <code>this</code> arkadaki denetçi sınıfın bir <em>örneğidir</em>.
+  Sadece şablon olan bileşenler için, <code>this</code> tanımsızdır.
