@@ -11,7 +11,7 @@ plain-function: >
   <a href="https://github.com/emberjs/rfcs/blob/master/text/0625-helper-managers.md">Helper Manager</a>
   such as what is provided by
   <a href="https://github.com/NullVoxPopuli/ember-functions-as-helper-polyfill">ember-functions-as-helper-polyfill</a>. 
-  The RFC that propose making this a default behavior,
+  The RFC that proposes making this a default behavior,
   <a href="https://github.com/emberjs/rfcs/pull/756">RFC#756: Default Helper Manager</a>, is in-progress.
 
 expression-breakdown: >
