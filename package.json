@@ -120,13 +120,13 @@
     "webpack": "^5.64.4"
   },
   "engines": {
-    "node": ">= 14.13.0"
+    "node": ">= v14.18.2"
   },
   "ember": {
     "edition": "octane"
   },
   "volta": {
-    "node": "14.17.6",
+    "node": "14.18.2",
     "yarn": "1.22.17"
   },
   "dependencies": {
