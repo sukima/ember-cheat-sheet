@@ -24,3 +24,12 @@
   grid-area: permalink;
   text-decoration: none;
 }
+
+.guide-section .references {
+  margin-top: 0.5rem;
+}
+
+.guide-section ul {
+  margin-top: 0.5rem;
+  margin-left: 1rem;
+}

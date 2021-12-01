@@ -1240,7 +1240,7 @@
     resolve "^1.8.1"
     semver "^7.3.2"
 
-"@embroider/macros@0.47.2":
+"@embroider/macros@0.47.2", "@embroider/macros@^0.47.2":
   version "0.47.2"
   resolved "https://registry.yarnpkg.com/@embroider/macros/-/macros-0.47.2.tgz#23cbe92cac3c24747f054e1eea2a22538bf7ebd0"
   integrity sha512-ViNWluJCeM5OPlM3rs8kdOz3RV5rpfXX5D2rDnc/q86xRS0xf4NFEjYRV7W6fBcD0b3v5jSHDTwrjq9Kee4rHg==
@@ -6589,6 +6589,18 @@ ember-fetch@^8.1.1:
     ember-cli-version-checker "^5.1.2"
     node-fetch "^2.6.1"
     whatwg-fetch "^3.6.2"
+
+ember-functions-as-helper-polyfill@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/ember-functions-as-helper-polyfill/-/ember-functions-as-helper-polyfill-1.0.3.tgz#f44ad8d06642429c68d419007139c858fa11613a"
+  integrity sha512-sFl1EDVk0X2x42cfkci3urZsle1TUYPBa0WUApROJjrR8/YJt5WGj1F8CLqburStZ8TVnVx4e3dVWzfcV3voPw==
+  dependencies:
+    "@embroider/macros" "^0.47.2"
+    "@glimmer/tracking" "^1.0.4"
+    ember-auto-import "^2.2.4"
+    ember-cli-babel "^7.26.6"
+    ember-cli-htmlbars "^6.0.0"
+    ember-cli-typescript "^4.2.1"
 
 ember-get-config@^0.3.0:
   version "0.3.0"

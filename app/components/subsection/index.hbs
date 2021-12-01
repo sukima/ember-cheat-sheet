@@ -32,7 +32,7 @@
       class="description"
     >
       {{#if (has-block 'description')}}
-        {{yield to='description'}}
+        {{yield this.t to='description'}}
       {{else}}
         {{subsectionDescription}}
       {{/if}}
@@ -40,11 +40,11 @@
 
     <div data-test-code>
       {{#if (has-block 'example')}}
-        {{yield to='example'}}
+        {{yield this.t to='example'}}
       {{/if}}
 
       {{#if (has-block 'default')}}
-        {{yield}}
+        {{yield this.t}}
       {{/if}}
     </div>
 
