@@ -1,0 +1,10 @@
+# Common translations for linking to
+# things in the docs
+title: References
+
+let: <code>let</code> on the Ember API docs
+array: <code>array</code> on the Ember API docs
+
+rfcs:
+  561: "RFC: Adding Numeric Comparison Operators to Templates"
+

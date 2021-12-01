@@ -190,10 +190,35 @@ functionA(argA, argB, { argC: functionB(argD) });
 
   </Section>
 
+  <Section @id="define-variables" as |t|>
+
+```hbs
+{{#let (array 1 2 3) as |list|}}
+  {{#each list as |number|}}
+    {{number}}
+  {{/each}}
+{{/let}}
+```
+
+{{t 'templates-how-to.define-variables.example'}}
+
+
+<Ref::List as |x|>
+  <x.api @to="classes/Ember.Templates.helpers/methods/let?anchor=let">
+    {{t 'refs.let'}}
+  </x.api>
+  <x.api @to="classes/Ember.Templates.helpers/methods/array?anchor=array">
+    {{t 'refs.array'}}
+  </x.api>
+</Ref::List>
+
+  </Section>
+
   <Section @id="math">
 
-{{t 'component.guide-section.references'}}
- - https://github.com/emberjs/rfcs/pull/561
+<Ref::List as |x|>
+  <x.rfc @id="561" />
+</Ref::List>
 
   </Section>
 
