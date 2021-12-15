@@ -1,0 +1,20 @@
+title: Bloko
+description: >
+  Bloko estas nestita amplekso, kiu havas lokajn variablojn, kiuj ne estas
+  disponeblaj ekster la bloko. Kiel en Javaskripto, variabloj difinitaj ekster
+  la bloko ankoraŭ povas esti aliritaj. Male al HBS, ekzistas neniu implica
+  amplekso.
+
+curly: >
+  Amplekso povas esti difinita per buklaj krampoj indikitaj per <code>#</code>
+  por signifi la komencon de la amplekso, kaj <code>/</code> por signifi la
+  finon de la amplekso.
+
+component: >
+  Amplekso povas esti difinita per komponentalvokoj, tre kiel la bukla
+  amplekso, kie la disponeblaj novaj lokaj variabloj estas difinitaj inter la
+  <code>as</code> vertikalaj baroj, <code>|...|</code>.
+
+component-after: >
+  Notu, ke ene de <code>MyComponent</code> devas esti <code>'{{yield}}'</code>
+  por ke la amplekso bildiĝu.

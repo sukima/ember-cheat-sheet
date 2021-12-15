@@ -1,0 +1,12 @@
+title: Difinaj Variabloj
+description: >
+  Uzi <code>let</code> estas la nura maniero difini variablojn enlinie en
+  ŝablonoj. Ĉar <code>let</code> estas blokhelpilo, tio signifas, ke amplekso
+  kongruas ankaŭ kun aliaj blokoj en ŝablonoj. Ĉi tio diferencas de lingvoj
+  kiel Javaskripto, kie difini variablon estas alirebla al la "nuna amplekso"
+  — kun <code>let</code>, vi kreas novan amplekson.
+
+example: >
+  En ĉi tiu ekzemplo, tabelo estas kreita kaj tiam havebla ene de la
+  <code>let</code> bloko kiel <code>list</code>. Ĝi povas esti ripetita super
+  same kiel ajna tabelo difinita en Javaskripto estus.
