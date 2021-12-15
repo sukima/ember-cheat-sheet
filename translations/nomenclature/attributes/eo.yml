@@ -1,0 +1,17 @@
+title: Atributoj
+description: >
+  Ajna HTML-atributo, kiel havebla en la
+  <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes">
+    MDN-listo de HTML-Atributoj
+  </a>
+
+splattributes: >
+  Ekzistas ankaŭ ŝprucitaj atributoj aŭ "splattributes", kiuj reprezentas
+  plusendon de ĉiuj pasitaj atributoj de voka kunteksto al la elemento kiu
+  havas <code>...attributes</code> sur ĝi. Notu, ke <em>argumentoj</em> ne
+  estas inkluzivita en <code>...attributes</code>.
+
+  En ĉi tiu malsupra ekzemplo, se ĉi tiu div reprezentus la ŝablonon por
+  <code>SomeComponent</code> supre, la atributoj <code>class</code>,
+  <code>data-test</code> kaj <code>style</code> estus aplikitaj al la
+  <code>div</code>.

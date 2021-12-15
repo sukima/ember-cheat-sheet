@@ -1,0 +1,14 @@
+title: Notacio
+description: >
+  Male al Javaskripto, Ember-ŝablonoj uzas
+  <a href="https://en.wikipedia.org/wiki/Polish_notation">
+    Polan Notacion
+  </a>
+  aŭ <em>Prefiksan Notacion</em>, kio signifas, ke funkciigistoj (aŭ funkcioj)
+  <em>antaŭas</em> siajn operantojn (argumentoj).
+js-equiv: kiu estas la ekvivalento de ĉi tio, en Javaskripto
+
+notes: >
+  En pli malnovaj versioj de Ember, vi eble bezonos aldonaĵon por helpantoj
+  kiel <code>or</code> kaj <code>not</code>
+  kiel: <a href="https://github.com/jmurphyau/ember-truth-helpers">ember-truth-helpers</a>

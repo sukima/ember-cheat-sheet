@@ -1,0 +1,5 @@
+title: Nestitaj komponantoj
+description: >
+  Komponanto difinita en la dosierujo de alia komponanto. Ekzemple, komponanto
+  en <code>app/components/nested/some-component</code> estus alvokita kiel
+  <code>&lt;Nested::SomeComponent /&gt;</code>
